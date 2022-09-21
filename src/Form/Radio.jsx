@@ -11,7 +11,7 @@ const Radio = ({ pergunta, options, onChange, value, id, active }) => {
       }}
     >
       <legend
-        className="p-3 mb-2 bg-warning text-dark"
+        className="p-3 mb-2 bg-info text-dark"
         style={{ fontWeight: "bold" }}
       >
         {pergunta}
