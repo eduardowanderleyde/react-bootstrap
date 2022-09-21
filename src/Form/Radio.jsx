@@ -26,6 +26,7 @@ const Radio = ({ pergunta, options, onChange, value, id, active }) => {
           }}
         >
           <input
+            className="form-check-input mt-0"
             type="radio"
             id={id}
             checked={value === option}
