@@ -76,7 +76,7 @@ const App = () => {
       ) : (
         <button
           type="button"
-          class="btn btn-primary btn-lg"
+          className="btn btn-primary btn-lg btn-dark"
           onClick={handleClick}
           style={{ marginLeft: "1rem" }}
         >
